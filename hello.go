@@ -3,7 +3,7 @@ package gohello
 import "fmt"
 
 func Hello(name string) string {
-    message := fmt.Sprintf("Hi, %v!", name)
+    message := fmt.Sprintf("Hello, %v!", name)
 
     return message
 }
